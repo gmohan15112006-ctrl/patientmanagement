@@ -1,0 +1,386 @@
+{
+  "users": [
+    {
+      "id": "user_admin_001",
+      "email": "sanjeevan2213@gmail.com",
+      "username": "sanjeevan2213",
+      "fullName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "role": "doctor_admin",
+      "accountStatus": "active",
+      "staffId": "DOC-8801",
+      "department": "Emergency & Trauma Surgery",
+      "createdAt": "2026-10-18T07:23:47.429Z",
+      "updatedAt": "2026-10-18T07:25:06.221Z",
+      "loginCount": 3,
+      "salt": "2b1baf49ee08c0f65e5c4cf668377897",
+      "passwordHash": "c177ff553998a9792c7d52c34a2ebdb2a393dadcb26e910ea6633c24ff29eaf2c4fa188e522a6ccad1ac2293cc5e133683d17f95a449ec7149a2f715da23b5a0",
+      "lastLoginAt": "2026-10-18T07:25:06.221Z"
+    },
+    {
+      "id": "user_nurse_001",
+      "email": "nurse.anita@hospital.org",
+      "username": "nurse_anita",
+      "fullName": "Staff Nurse Anita R.",
+      "role": "nurse",
+      "accountStatus": "active",
+      "staffId": "NUR-4210",
+      "department": "Trauma Resuscitation Unit",
+      "createdAt": "2026-02-15T00:00:00.000Z",
+      "updatedAt": "2026-10-18T07:14:13.249Z",
+      "loginCount": 2,
+      "salt": "8f9a006f6dedbede2eb1e25edccb8b8d",
+      "passwordHash": "d9df706844d83db890734cdbcb55b19c099fdb8a372a27d3d9c9bab0c5b6ba0f7167ab88105e8b254fb1af834bac9ac87eeed7aeca19220e6594a614c73578ab",
+      "lastLoginAt": "2026-10-18T07:14:13.249Z"
+    },
+    {
+      "id": "user_nurse_002",
+      "email": "nurse.sarah@hospital.org",
+      "username": "nurse_sarah",
+      "fullName": "Staff Nurse Sarah M.",
+      "role": "nurse",
+      "accountStatus": "pending_approval",
+      "staffId": "NUR-4299",
+      "department": "Casualty Ward",
+      "createdAt": "2026-10-18T07:08:25.430Z",
+      "updatedAt": "2026-10-18T07:08:25.430Z",
+      "loginCount": 0,
+      "salt": "4922270d2442840d8a6a9ccbb5addcc5",
+      "passwordHash": "7200b5469added6e5f6c57f17e1d8e01cac84e2c06be28c10f9d575feb861d3c8fec4855a2fc239b66c2f8b2133ee8bce2f594a197836496e1c4f2651275efaa"
+    },
+    {
+      "id": "user_nurse_1792307638530",
+      "email": "sanjay@gmail.com",
+      "username": "nusre_sanjay",
+      "fullName": "sanjay",
+      "role": "nurse",
+      "accountStatus": "pending_approval",
+      "staffId": "NUR-123",
+      "department": "Casualty / Emergency Resuscitation",
+      "createdAt": "2026-10-18T07:13:58.530Z",
+      "updatedAt": "2026-10-18T07:13:58.530Z",
+      "loginCount": 0,
+      "salt": "1bba2c8adc2b0c62d2a53ac3e3107d99",
+      "passwordHash": "7ee6b7cc6cc5d2d87c5495f4c291763c7f0c5f7b90c78794b48ecfbfec67f64e6f9cb3c42b770d3edce54345e943226caafd6900c94ad9fb1c742276aac72293"
+    }
+  ],
+  "records": [
+    {
+      "ipNumber": "63267",
+      "patientName": "MOHAN",
+      "age": 57,
+      "sex": "M",
+      "admissionDatetime": "18.10.2026 12:44 PM",
+      "patientReceivedTime": "12:44 PM",
+      "specialtyCategory": "SURGERY CASES",
+      "diagnosis": "CVGVV",
+      "ageInterval": "12-60",
+      "taeiCategory": "NON PILLAR",
+      "medicolegalCategory": "MLC",
+      "transferredOut": "FS",
+      "transferredOutTime": "12:14",
+      "emergencyResponseTime": "5 mins",
+      "id": "rec_1b27154b-d88a-4a6d-8658-9aad3c9d4e7b",
+      "serialNumber": 1,
+      "createdAt": "2026-10-18T07:15:28.099Z",
+      "createdBy": "user_nurse_001",
+      "createdByName": "Staff Nurse Anita R."
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_8989a738-483a-4a0a-88cf-4717a2a5dfde",
+      "userId": "user_admin_001",
+      "userName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "userRole": "doctor_admin",
+      "loginAt": "2026-10-18T07:23:59.200Z",
+      "lastActivityAt": "2026-10-18T07:23:59.200Z",
+      "sessionStatus": "revoked",
+      "deviceSummary": "curl/7.88.1",
+      "ipAddress": "127.0.0.1",
+      "logoutAt": "2026-10-18T07:24:18.100Z"
+    },
+    {
+      "id": "sess_22d9e4fa-e18d-469a-a43a-ee5f3b36d44b",
+      "userId": "user_admin_001",
+      "userName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "userRole": "doctor_admin",
+      "loginAt": "2026-10-18T07:24:18.100Z",
+      "lastActivityAt": "2026-10-18T07:24:18.100Z",
+      "sessionStatus": "revoked",
+      "deviceSummary": "curl/7.88.1",
+      "ipAddress": "127.0.0.1",
+      "logoutAt": "2026-10-18T07:25:06.222Z"
+    },
+    {
+      "id": "sess_c476280d-72c3-4901-9378-772d3aa2c86a",
+      "userId": "user_admin_001",
+      "userName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "userRole": "doctor_admin",
+      "loginAt": "2026-10-18T07:25:06.222Z",
+      "lastActivityAt": "2026-10-18T07:25:06.222Z",
+      "sessionStatus": "active",
+      "deviceSummary": "curl/7.88.1",
+      "ipAddress": "127.0.0.1"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actorUserId": "anonymous",
+      "actorName": "admin@hospital.org",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN_FAILED",
+      "entityType": "user",
+      "changeSummary": "Failed login attempt for unknown account 'admin@hospital.org'.",
+      "id": "audit_9fe96dcf-7645-4d85-8f18-26301741310b",
+      "timestamp": "2026-10-18T07:25:12.662Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_c476280d-72c3-4901-9378-772d3aa2c86a",
+      "changeSummary": "User Dr. Sanjeevan (Chief Medical Officer / Admin) logged in successfully [doctor_admin].",
+      "id": "audit_7945711e-29a9-48d2-b43d-0ac8f0600a77",
+      "timestamp": "2026-10-18T07:25:06.223Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_22d9e4fa-e18d-469a-a43a-ee5f3b36d44b",
+      "changeSummary": "User Dr. Sanjeevan (Chief Medical Officer / Admin) logged in successfully [doctor_admin].",
+      "id": "audit_c5a31720-864f-455a-9fd4-18deba4bbae4",
+      "timestamp": "2026-10-18T07:24:18.101Z"
+    },
+    {
+      "actorUserId": "anonymous",
+      "actorName": "admin@hospital.org",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN_FAILED",
+      "entityType": "user",
+      "changeSummary": "Failed login attempt for unknown account 'admin@hospital.org'.",
+      "id": "audit_12842d57-d9a8-4df1-a532-8b76559ba894",
+      "timestamp": "2026-10-18T07:24:12.314Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. Sanjeevan (Chief Medical Officer / Admin)",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_8989a738-483a-4a0a-88cf-4717a2a5dfde",
+      "changeSummary": "User Dr. Sanjeevan (Chief Medical Officer / Admin) logged in successfully [doctor_admin].",
+      "id": "audit_55894fee-dcc7-4ad8-a3d6-1c607c7a95f3",
+      "timestamp": "2026-10-18T07:23:59.200Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. K. Sundararajan (Chief Medical Officer)",
+      "actorRole": "doctor_admin",
+      "action": "LOGOUT",
+      "entityType": "session",
+      "entityId": "sess_f7f5b2a4-74b9-4a8e-abde-9c14b19faf92",
+      "changeSummary": "Session closed for Dr. K. Sundararajan (Chief Medical Officer).",
+      "id": "audit_681b2a62-3567-4ed8-980b-5aacb6589c4d",
+      "timestamp": "2026-10-18T07:17:05.687Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. K. Sundararajan (Chief Medical Officer)",
+      "actorRole": "doctor_admin",
+      "action": "EXCEL_EXPORTED",
+      "entityType": "patient_record",
+      "changeSummary": "Doctor/Admin exported 1 patient record(s) to Excel. Split by date: Yes.",
+      "id": "audit_016b2234-c717-4a98-ad3a-57d4c3d078c5",
+      "timestamp": "2026-10-18T07:16:06.527Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. K. Sundararajan (Chief Medical Officer)",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_f7f5b2a4-74b9-4a8e-abde-9c14b19faf92",
+      "changeSummary": "User Dr. K. Sundararajan (Chief Medical Officer) logged in successfully [doctor_admin].",
+      "id": "audit_6ae2c347-aba0-4730-a7b6-52e44a36ff27",
+      "timestamp": "2026-10-18T07:15:53.679Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "LOGOUT",
+      "entityType": "session",
+      "entityId": "sess_37bd9c52-895d-4342-8174-75395997472c",
+      "changeSummary": "Session closed for Staff Nurse Anita R..",
+      "id": "audit_4077c4a4-0d0f-4268-91cf-7108e3f6870b",
+      "timestamp": "2026-10-18T07:15:44.887Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "RECORD_CREATED",
+      "entityType": "patient_record",
+      "entityId": "rec_1b27154b-d88a-4a6d-8658-9aad3c9d4e7b",
+      "changeSummary": "Emergency record #1 created for IP 63267 (MOHAN, 57/M) - Diagnosis: CVGVV.",
+      "id": "audit_162a9d57-d87d-4404-9add-8bdaee95ab4f",
+      "timestamp": "2026-10-18T07:15:28.099Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_37bd9c52-895d-4342-8174-75395997472c",
+      "changeSummary": "User Staff Nurse Anita R. logged in successfully [nurse].",
+      "id": "audit_be9dd267-8d4e-44b6-9152-f1b51f941f3d",
+      "timestamp": "2026-10-18T07:14:13.251Z"
+    },
+    {
+      "actorUserId": "user_nurse_1792307638530",
+      "actorName": "sanjay",
+      "actorRole": "nurse",
+      "action": "NURSE_REGISTERED",
+      "entityType": "user",
+      "entityId": "user_nurse_1792307638530",
+      "changeSummary": "New nurse registration requested for 'sanjay' (sanjay@gmail.com). Pending admin approval.",
+      "id": "audit_4133137c-ac4d-46cf-8da4-8fb3c1b83a78",
+      "timestamp": "2026-10-18T07:13:58.533Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. K. Sundararajan (Chief Medical Officer)",
+      "actorRole": "doctor_admin",
+      "action": "EXCEL_EXPORTED",
+      "entityType": "patient_record",
+      "changeSummary": "Doctor/Admin exported 1 patient record(s) to Excel. Split by date: Yes.",
+      "id": "audit_cb201e1b-3b84-4c71-ad47-55c27ef43158",
+      "timestamp": "2026-10-18T07:09:09.987Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "LOGIN_FAILED",
+      "entityType": "user",
+      "changeSummary": "Security Alert: Nurse 'Staff Nurse Anita R.' attempted unauthorized administrative access to DELETE /api/records/rec_4e48f447-a487-4da2-af23-8d517b6d5f8e.",
+      "id": "audit_f915ac9c-607c-4d04-aabd-28653112335d",
+      "timestamp": "2026-10-18T07:08:56.152Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "RECORD_CREATED",
+      "entityType": "patient_record",
+      "entityId": "rec_4e48f447-a487-4da2-af23-8d517b6d5f8e",
+      "changeSummary": "Emergency record #1 created for IP 9985 (PERIYASAMY, 24/M) - Diagnosis: RTA.",
+      "id": "audit_3ceb70a9-3789-4ce7-b0a5-723cf95b25f8",
+      "timestamp": "2026-10-18T07:08:52.224Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_bebe4082-f958-4203-881c-5941c74f23e2",
+      "changeSummary": "User Staff Nurse Anita R. logged in successfully [nurse].",
+      "id": "audit_205d1e76-dfd1-409a-ba95-55005c92b715",
+      "timestamp": "2026-10-18T07:08:46.474Z"
+    },
+    {
+      "actorUserId": "user_nurse_001",
+      "actorName": "Staff Nurse Anita R.",
+      "actorRole": "nurse",
+      "action": "LOGIN_FAILED",
+      "entityType": "user",
+      "entityId": "user_nurse_001",
+      "changeSummary": "Access denied: Role 'nurse' attempted to log into 'doctor_admin' portal.",
+      "id": "audit_b58fe372-52da-4f1b-be41-1eaf4d7e1dca",
+      "timestamp": "2026-10-18T07:08:42.620Z"
+    },
+    {
+      "actorUserId": "user_admin_001",
+      "actorName": "Dr. K. Sundararajan (Chief Medical Officer)",
+      "actorRole": "doctor_admin",
+      "action": "LOGIN",
+      "entityType": "session",
+      "entityId": "sess_1464b70c-eab6-4e28-97e8-83fcf34c2e83",
+      "changeSummary": "User Dr. K. Sundararajan (Chief Medical Officer) logged in successfully [doctor_admin].",
+      "id": "audit_2fda1a91-0b93-4fff-8a0d-093056f27b43",
+      "timestamp": "2026-10-18T07:08:38.452Z"
+    },
+    {
+      "id": "1b04d2db-99aa-4545-ad0b-4e8e99786a3f",
+      "actorUserId": "system",
+      "actorName": "System Bootstrap",
+      "actorRole": "doctor_admin",
+      "action": "CONFIG_UPDATED",
+      "entityType": "system",
+      "timestamp": "2026-10-18T07:08:25.431Z",
+      "changeSummary": "Hospital database initialized with default clinical options and administrative security policies."
+    }
+  ],
+  "config": {
+    "hospitalName": "GOVERNMENT EMERGENCY & TRAUMA CARE CENTER",
+    "hospitalBranch": "TAMIL NADU ACCIDENT & EMERGENCY INITIATIVE (TAEI)",
+    "emergencyUnitName": "CASUALTY & TRAUMA RESUSCITATION WARD",
+    "specialtyCategories": [
+      "SURGERY CASES",
+      "MEDICINE CASES"
+    ],
+    "taeiCategories": [
+      "PILLAR",
+      "NON PILLAR"
+    ],
+    "medicolegalCategories": [
+      "MLC",
+      "NMLC"
+    ],
+    "transferWards": [
+      "MS",
+      "MM",
+      "NS",
+      "FM",
+      "SD ICU",
+      "M ORTHO",
+      "FS",
+      "MICU",
+      "SICU",
+      "OPD",
+      "DISCHARGED"
+    ],
+    "ageIntervals": [
+      "12-60",
+      ">60",
+      "<12"
+    ],
+    "commonDiagnoses": [
+      "RTA",
+      "POISONING",
+      "ASF",
+      "RTA WITH HI",
+      "CHEST PAIN",
+      "HYPOGLYCEMIA",
+      "AGE",
+      "ABDOMINAL PAIN",
+      "ACUTE APPENDICITIS",
+      "ASSAULT",
+      "GIDDINESS",
+      "DIABETIC CELLULITIS",
+      "PSYCHIATRIC DISORDER",
+      "FEVER",
+      "CAG",
+      "FFE/ CHICKEN FOX",
+      "CVA"
+    ]
+  },
+  "lastSerialNumber": 1
+}

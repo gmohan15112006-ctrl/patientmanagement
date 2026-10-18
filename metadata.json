@@ -1,0 +1,6 @@
+{
+  "name": "Hospital Patient Data Management System",
+  "description": "Secure, responsive emergency hospital patient data management system with dedicated Nurse and Doctor/Admin portals, real-time data entry, audit logging, and Excel export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
